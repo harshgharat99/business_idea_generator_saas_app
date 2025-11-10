@@ -25,29 +25,29 @@ export default function Home() {
     }, []);
 
     return (
-        <main className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-gray-900 dark:to-gray-800">
+        <main className="min-h-screen bg-gradient-to-br from-[#f9f7f4] to-[#f3ede8] dark:from-[#1f1c1a] dark:to-[#2a2725]">
             <div className="container mx-auto px-4 py-12">
                 {/* Header */}
                 <header className="text-center mb-12">
-                    <h1 className="text-5xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent mb-4">
+                    <h1 className="text-5xl font-bold bg-gradient-to-r from-[#3a2f2a] to-[#6f5f57] bg-clip-text text-transparent mb-4">
                         Business Idea Generator
                     </h1>
-                    <p className="text-gray-600 dark:text-gray-400 text-lg">
+                    <p className="text-[#7a6f67] dark:text-[#b8ada4] text-lg">
                         AI-powered innovation at your fingertips
                     </p>
                 </header>
 
                 {/* Content Card */}
                 <div className="max-w-3xl mx-auto">
-                    <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-8 backdrop-blur-lg bg-opacity-95">
+                    <div className="bg-[#fffdfb] dark:bg-[#2b2623] rounded-2xl shadow-lg p-8 backdrop-blur-lg bg-opacity-95 border border-[#e6e0da]/60 dark:border-[#3c3532]">
                         {idea === '…loading' ? (
                             <div className="flex items-center justify-center py-12">
-                                <div className="animate-pulse text-gray-400">
+                                <div className="animate-pulse text-[#a79e95]">
                                     Generating your business idea...
                                 </div>
                             </div>
                         ) : (
-                            <div className="markdown-content text-gray-700 dark:text-gray-300">
+                            <div className="markdown-content text-[#3a2f2a] dark:text-[#d6cfc8]">
                                 <ReactMarkdown
                                     remarkPlugins={[remarkGfm, remarkBreaks]}
                                 >
