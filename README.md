@@ -1,3 +1,5 @@
+![biggifv2](https://github.com/user-attachments/assets/5c59f61e-196f-4ee7-8176-1012ca634f82)
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
 
 ## Getting Started
